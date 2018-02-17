@@ -1,0 +1,8 @@
+{
+  "name": "rokko",
+  "app_id": "0973650e",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
