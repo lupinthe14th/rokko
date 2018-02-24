@@ -25,6 +25,8 @@ export class HomePage {
     }).addTo(this.map);
     this.map.locate({
       setView: true,
+      watch: true,
+      enableHighAccuracy: true,
       maxZoom:10
     }).on('locationfound',(e) => {
       let markerGroup = leaflet.featureGroup();
